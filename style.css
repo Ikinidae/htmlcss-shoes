@@ -8,50 +8,45 @@
 .first_section {
     background-color: red;
     height: 120vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 
 .second_section {
     background-color: green;
     height: 120vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 
 .third_section {
     background-color: yellow;
     height: 120vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
-}
-
-.center_img {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -40%);
-}
-
-.center_text {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -70%);
 }
 
 .text {
     font-size: 45px;
     text-align: center;
     color: yellow;
+    width: 100%;
 }
 
 .text_green {
     font-size: 45px;
     text-align: center;
     color: green;
+    width: 100%;
 }
 
 img {
-    width: 700px;
+    width: 100%;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
 }
